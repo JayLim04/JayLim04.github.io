@@ -10,6 +10,7 @@ body{
 	background-color: black;
 	color: white;
 	max-width: 100%;
+
 		}
 i{
 	padding-right: 5px;
@@ -117,10 +118,12 @@ a{
 	display: flex;
 	padding-top: 100vh;
 	margin: 20px;
+	
   }
 
 #abtcard{
 	margin-right: 5vw;
+	
 }
 #resume{
 	display: flex;
@@ -138,6 +141,12 @@ transition: 0.2s;
 align-items: center; 
 
 }
+.column{
+	float: left;
+	width: 25%;
+	padding: 0 10px;
+  }
+
   .row {margin: 0 -5px;}
   
   .row:after {
@@ -145,7 +154,9 @@ align-items: center;
 	display: table;
 	clear: both;
   }
-  
+  #labels{
+	padding-left: 5vw;
+  }
   .workh1{
 	font-size: larger;
 	align-items: center;
@@ -213,7 +224,9 @@ align-items: center;
 .container .card:hover .face.face1 .content a{
 transition: 0.5s;
 }
-
+.img{
+	width: auto;
+}
 .container .card .face.face2{
 	position: relative;
 	background: #616161;
@@ -238,7 +251,7 @@ box-shadow: inset 0px 2px 4px rgba(255, 0, 0, 0.47),
 inset 0px 4px 8px rgba(255, 0, 0, 0.47), 
 inset 0px 8px 16px rgba(255, 0, 0, 0.47);
 transition: 0.2s;
-transform: scale(1.1);	
+transform: scale(1.05);	
 padding: -20px;
 }
 
