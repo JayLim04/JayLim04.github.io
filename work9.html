@@ -5,32 +5,72 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
-</head>
-<style>
-	body{
-		background-color: black;
-		color: white;
-		font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-		padding: 20px;
+	<style>
+		body {
+			background-color: black;
+			color: white;
+			font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+			padding: 20px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			height: 100vh;
+			margin: 0;
+		}
 		
-	}
-	img{
-		max-height: 50vh;	
-	}
-</style>
+		img {
+			max-height: 50vh;
+			margin-bottom: 20px;
+		}
+		
+		section#top {
+			margin-bottom: 20px;
+			position: absolute;
+			top: 20px;
+			left: 20px;
+		}
+		
+		section#top a {
+			color: white;
+			text-decoration: none;
+			border: 2px solid white;
+			border-radius: 5px;
+			padding: 10px;
+			transition: border 0.3s ease;
+		}
+		
+		section#top a:hover {
+			text-decoration: underline;
+			border: 4px solid white;
+		}
+		
+		section#bottom a {
+			color: white;
+			text-decoration: none;
+			border: 2px solid white;
+			border-radius: 5px;
+			padding: 10px;
+			transition: border 0.3s ease;
+		}
+		
+		section#bottom a:hover {
+			text-decoration: underline;
+			border: 4px solid white;
+		}
+	</style>
+</head>
 <body>
-	<a href="index.html#works">Back to main page</a><br><br>
-
+	<section id="top">
+		<a href="index.html#works">Back to main page</a>
+	</section>
 	<img src="photos\moviesPage.PNG">
-	<br>
-	<h1>Movie List</h1><br>
+	<h1>Movie List</h1>
 	<p>
-This is a website that I coded in HTML and php. <br>
-It allows me to look through the movie lists, see the comments and details of each movie<br>
-I can also add comments and look at movies that will be released in the future
+		This is a website that I coded in HTML and PHP. <br>It allows me to look through the movie lists, see the comments and details of each movie.<br> I can also add comments and look at movies that will be released in the future.
 	</p>
-<section id ="bottom">
-	<a href="work10.html">Go to next artwork</a>
-</section>
+	<section id="bottom">
+		<a href="work10.html">Go to next artwork</a>
+	</section>
 </body>
 </html>
